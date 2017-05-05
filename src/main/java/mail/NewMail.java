@@ -94,8 +94,7 @@ public class NewMail {
 	public static void main(String[] args) {
 		NewMail cn = new NewMail();
 		// 设置发件人地址、收件人地址和邮件标题
-		cn.setAddress("guo.wei@joymeng.com", "cheng.jie@joymeng.com", "密码找回");
-		// cn.setAddress("xpillx@163.com", "1135431732@qq.com", "密码找回");
+		cn.setAddress("321321@qq.com", "weqwe@qq.com", "密码找回");
 		// 设置要发送附件的位置和标题
 		// cn.setAffix("f:/123.txt", "123.txt");
 
@@ -103,8 +102,7 @@ public class NewMail {
 		 * 设置smtp服务器以及邮箱的帐号和密码 用QQ 邮箱作为发生者不好使 （原因不明） 163 邮箱可以，但是必须开启 POP3/SMTP服务
 		 * 和 IMAP/SMTP服务 因为程序属于第三方登录，所以登录密码必须使用163的授权码 注意： [授权码和你平时登录的密码是不一样的]
 		 */
-		// cn.send("smtp.163.com", "xpillx@163.com", "qwe987654321");
-		cn.send("10.80.9.23", "guo.wei@joymeng.com", "Guowei2130");
+		cn.send("1.1.1.1", "321321@qq.com", "sdasd");
 
 	}
 }
