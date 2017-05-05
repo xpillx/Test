@@ -20,7 +20,7 @@ public class AppletDemo extends Applet {
 		      squareSize = Integer.parseInt (param);
 		   }
 		   catch (Exception e) {
-		     // 保留默认值
+		     
 		   }
 	   }
 	   private Color parseColor (String param) {
